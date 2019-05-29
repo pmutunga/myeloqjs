@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box; /*Include padding and border in the element's total width and height */
+}
+
+body {
+  background-image: url('../images/bg-space.png'); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: auto; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.jumbotron {
+  background-color: rgba(219, 223, 226, 0.3);
+  border-radius: 5%;
+  text-align: center;
+  /* font-weight: bold; */
+  margin: 5%;
+  color: #000000;
+}
+
+.card {
+  height: 400px;
+}
+
+.chapter {
+  position: absolute;
+  bottom: 5px;
+  right: 2px;
+}
+
+.card-img-top {
+  height: 180px;
+  width: 100%;
+}
+
+h6 {
+  color: bisque;
+  font-size: 32px;
+  font-weight: 400px;
+  background: #103060;
+  border: gray solid 1px;
+  box-shadow: #cccccc;
+}
